@@ -1,0 +1,99 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #04364a;
+}
+
+.nav {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #64ccc5;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+i {
+  color: #0f0f0f;
+  font-size: 20px;
+  }
+
+.photo img {
+  margin: 5px 0px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.update-profile form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.update-profile input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #F8F9FA;
+}
+.update-profile input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #F8F9FA;
+}
+
+.update {
+  width: 50%;
+}
+
+.fa-cog,.fa-pen {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.edit-profile{
+  width: 90%;
+  margin-top: 30px
+}
+
+.pengaturan-akun {
+  width: 90%;
+}
+
+.pengaturan {
+  width: 100%;
+  height: 42px;
+  margin: 2px;
+  color: black;
+}
+
+.text {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    width: 100%;
+  }
+  
+  .update {
+    width: 100%;
+  }
+
+  body {
+    background-color: #f8f8f8;
+  }
+}

@@ -1,0 +1,69 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #04364a;
+}
+
+.nav {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #64ccc5;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+i {
+  color: #0f0f0f;
+  font-size: 20px;
+  }
+
+.photo img {
+  margin: 5px 0px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.update {
+  width: 50%;
+  min-height: 90vh;
+}
+
+.fa-user {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.pengaturan-akun {
+  width: 90%;
+}
+
+.edit-profile{
+  width: 90%;
+  margin-top: 30px
+}
+
+.text {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    width: 100%;
+  }
+  
+  .update {
+    width: 100%;
+  }
+
+  body {
+    background-color: #f8f8f8;
+  }
+}

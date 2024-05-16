@@ -1,0 +1,110 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #04364A;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login {
+  height: 90vh;
+  padding: 0 20px 0 20px;
+}
+
+.login h1 {
+  color: var(--hitam, #18152d);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  color : var(--hitam, #64ccc5);
+}
+
+.navbar-brand span, .login h1 span {
+  color: var(--putih, #faf7f4);
+}
+
+.login p {
+  color: var(--hitam, #18152d);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.login small{
+  color: var(--hitam, #18152d);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.box-area{
+  width: 700px;
+  height: 400px;
+}
+
+.left-box {
+  border-radius: 15px 0 0 15px;
+  background-color: white;
+}
+
+.group-input {
+  position: relative;
+}
+
+.group-input img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; 
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.group-input input {
+  padding-right: 30px;
+  position: relative;
+}
+
+.bottom-container {
+  position: relative; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+nav {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.nav-item button {
+  background-color: #032736;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content {
+  margin-top: 60px;
+}
