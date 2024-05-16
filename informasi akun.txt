@@ -1,0 +1,16 @@
+Akun untuk admin
+username : admin
+email : admin@gmail.com
+password : 12345678
+
+
+Akun untuk owner
+username : owner
+email : owner@gmail.com
+password : 12345678
+
+
+Akun untuk moderator
+username : moderator
+email : moderator@gmail.com
+password : 12345678

@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  color: var(--hitam, #64ccc5);
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: var(--hitam, #000000);
+}
+
+.nav-item button {
+  background-color: #032736;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 30vh;
+  margin-left: 50px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-left: 50px;
+}
+
+.hero a {
+  margin-left: 50px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin-top: 15vh;
+  margin-left: 100px;
+}

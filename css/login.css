@@ -26,14 +26,6 @@ body{
   font-weight: 700;
 }
 
-.navbar-brand {
-  color : var(--hitam, #64ccc5);
-}
-
-.navbar-brand span, .login h1 span {
-  color: var(--putih, #faf7f4);
-}
-
 .login p {
   color: var(--hitam, #18152d);
   font-family: Poppins;
